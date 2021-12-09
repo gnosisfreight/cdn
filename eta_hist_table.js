@@ -1,4 +1,4 @@
-function add_eta_history(view) {
+var add_eta_history = function(view) {
   $(document).on(‘knack-view-render.‘+view, function (event, view) {
     var view_no = view.key;
     if ($(‘#’+view_no+' > section > div > div > div > div > div > div.kn-detail-body > span > span’).length>0){
