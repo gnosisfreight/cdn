@@ -6,3 +6,7 @@
     position: sticky;
     top: 60px;
 }
+
+#knack-dist_7 > div.kn-info-bar:hover {
+    background-color: cornflowerblue;
+}
