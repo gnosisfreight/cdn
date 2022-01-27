@@ -1,0 +1,8 @@
+#knack-dist_7 > div.kn-info-bar {
+    height: 311px;
+    background-color: #000000;
+    border-bottom: 1px solid #8a8c8e15;
+    margin-bottom: -100px;
+    position: sticky;
+    top: 60px;
+}
