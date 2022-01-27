@@ -1,12 +1,2599 @@
-#knack-dist_7 > div.kn-info-bar {
-    height: 311px;
-    background-color: #000000;
-    border-bottom: 1px solid #8a8c8e15;
-    margin-bottom: -100px;
-    position: sticky;
-    top: 60px;
+/* Custom Header */
+
+#view_341 {
+  display:none;
 }
 
-#knack-dist_7 > div.kn-info-bar:hover {
-    background-color: cornflowerblue;
+#kn-app-header {
+  background-color: #2c2b2d;
+  background-image: url("https://oakworth.com/wp-content/themes/oakworth/images/oak-site-logo.svg");
+  background-repeat: no-repeat;
+  background-size: 225px auto;
+  background-position: left 25px top 25px;
+  height: 140px;
+  position: relative;
+  display: none !important;
+}
+
+#loggedintext {
+  color: #f8fafb !important;
+  font-size: 11px;
+  font-weight: 400 !important;
+  opacity: .8;
+}
+
+#loggedcont {
+  color: #f8fafb !important;
+  font-size: 11px;
+  font-weight: 300 !important;
+  position: absolute;
+  right: 145px;
+  top: 20px;
+  opacity: .8;
+}
+
+#kn-app-header > div {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+#knack-dist_7 > div.kn-scenes.kn-section {
+  padding-top: 7px;
+}
+
+#knack-dist_7 > div.kn-info-bar > div {
+  margin-left: auto;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+body {
+  background-color: #ffffff !important;
+}
+
+.chzn-container-multi .chzn-choices, .chzn-container-multi .chzn-choices .search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
+  box-shadow: none !important;
+  border-radius: 4px !important;
+}
+
+#knack-body, .kn-view {
+  font-weight: 400;
+}
+
+#betabtn {
+  background-color: #2c2b2d;
+  color: white;
+  font-size: 10px;
+  letter-spacing: .07em;
+  font-weight: 400;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0px 7px 0px 7px;
+  position: absolute;
+  bottom: 16px;
+  left: 290px;
+  text-decoration: none !important;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#view_398 #kn-input- > div > p {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+#kn-loading-spinner {
+    z-index: 5000;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%) translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: #2c2b2d;
+    opacity: .99;
+}
+
+#kn-scene_20 .kn-button.is-loading:before {
+    content: "Processing request... please wait.";
+    position: absolute;
+    left: 200px;
+    color: #333;
+}
+
+#kn-scene_204 > div.view-group.view-group-1 {
+  margin-top: 20px;
+}
+
+#view_466 > div.view-header > h2,
+#view_464 > div.view-header > h2 {
+  font-weight: 400;
+}
+
+#view_464 > div.kn-table-wrapper.is-constrained {
+  overflow: hidden !important;
+}
+
+/* Custom Nav Bar*/
+
+#app-menu-list > li:nth-child(1) > a {
+  font-weight: 400 !important;
+  border-bottom: 1px solid #8a8c8e20;
+}
+#app-menu-list > li:nth-child(2) > a {
+  font-weight: 400 !important;
+  border-bottom: 1px solid #8a8c8e20;
+}
+
+#app-menu-list > li > ul {
+  border: 1px solid #8a8c8e50;
+  border-top: none;
+}
+
+.kn-content .tabs.is-boxed a {
+  border-radius: 3px 3px 0 0 !important;
+}
+
+#app-menu-list > li:nth-child(2) {
+  margin-left: 10px;
+}
+
+.kn-current_user {
+  position: absolute;
+    right: 5px;
+    top: -23px;
+    color: #f5f5f5;
+}
+
+.kn-current_user a {
+    color: #D3D3D3;
+    display: none;
+}
+
+.kn-current_user #text {
+  display: none;
+}
+
+#view_450 {
+  display: none;
+}
+
+#kn-scene_82 > div.view-group.view-group-7 {
+  display: none;
+}
+
+
+/* Checkboxes */
+
+#kn-input-field_116 > div > label > input[type=checkbox] {
+  margin-right: 8px !important;
+  vertical-align: middle !important;
+}
+
+#kn-input-field_109 > div > label > input[type=checkbox] {
+  margin-right: 8px !important;
+  vertical-align: middle !important;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 3px !important;
+}
+
+#kn-input-field_507 > div > label > input[type=checkbox] {
+  margin-right: 8px !important;
+  vertical-align: middle !important;
+}
+
+/* Main Content Container Overlap */
+
+#kn-scene_20,
+#kn-scene_82,
+#kn-scene_124,
+#kn-scene_204,
+#kn-scene_126 {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+  z-index: 1;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 3px 20px 0 rgb(0 0 0 / 8%), 0 1px 4px 0 rgb(0 0 0 / 6%);
+}
+
+#kn-scene_82,
+#kn-scene_124,
+#kn-scene_204,
+#kn-scene_126 {
+  padding-top: 20px !important;
+}
+
+#knack-dist_7 > div.kn-info-bar {
+  height: 175px;
+  background-color: #f7f8f9;
+  border-bottom: 1px solid #8a8c8e15;
+  margin-bottom: -100px;
+  position: sticky;
+  top: 60px;
+}
+
+#view_28 {
+  margin-bottom: 0px;
+}
+
+/* Fix overlapping embed label */
+
+label {
+  font-weight: normal !important;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal !important;
+}
+
+/* Fix PDF field link for search table */
+
+#view_264 .kn-view-asset {
+    background:    #c0362c;
+    border:        0px solid #000;
+    border-radius: 4px;
+    padding:       2px 7px;
+    color:         #fff !important;
+    display:       inline-block;
+    font-weight: 300;
+    font-size: small;
+    text-align:    center;
+    text-shadow:   none;
+    transform: scale(.85);
+}
+
+/* Fix Upload Background */
+
+#field_108_upload {
+  background-color: #F8FAFB;
+}
+#field_358_upload {
+  background-color: #F8FAFB;
+}
+#field_108_upload {
+  background-color: #F8FAFB;
+}
+#field_358_upload {
+  background-color: #F8FAFB;
+}
+#field_155_upload {
+  background-color: #F8FAFB;
+}
+#field_386_upload {
+  background-color: #F8FAFB;
+}
+
+
+
+/* Hide the crumbtrail at the top of the page */
+.kn-crumbtrail {
+  visibility: hidden;
+}
+
+/* Search Feature
+
+#view_264 > form {
+  display: flex;
+  align-items: baseline;
+  background-color: #f7f8f9;
+  padding: 8px 30px 0px 30px;
+  margin: auto;
+  margin-right: -40px;
+  justify-content: center;
+  min-width: 510px;
+  width: 510px;
+  box-shadow: rgb(0 0 0 / 3%) 0px 2px 2px 0px;
+  border-radius: 0px 0px 0px 20px;
+  border-bottom: 1px solid #8a8c8e30;
+  border-left: 1px solid #8a8c8e30;
+}
+
+#view_264-search > div > div > ul > li > span.value > input {
+  background-image: url("https://i.ibb.co/cLRknXz/icons8-search-50-1.png");
+  background-size: 19px auto;
+  background-repeat: no-repeat;
+  background-position: left 5px top 6px;
+  padding-left: 35px;
+  bottom: 3px;
+  width: 175px;
+  transition: .3s ease;
+}
+
+#view_264-search > div > div > ul > li > span.value > input:focus-visible {
+  width: 215px;
+}
+
+#view_264 .kn-button {
+  background-color: #58595b !important;
+  transition: .3s ease;
+  color: #ffffff;
+}
+
+#view_264 .kn-button:hover {
+  background-color: #323334 !important;
+}
+
+#view_264 > form > div.kn-submit.control.is-horizontal > a {
+  text-transform: capitalize;
+}
+
+#view_264 > form > div.kn-submit.control.is-horizontal > button {
+  width: 20px;
+  min-width: 100px;
+}
+
+#view_264 > div > div.kn-table-wrapper > table a {
+  text-decoration: none;
+}
+
+#view_264 > div > div.kn-table-wrapper {
+  box-shadow: rgb(0 0 0 / 5%) 0px 3px 11px;
+}
+
+#view_264 > div {
+  margin-top: 18px !important;
+  margin-bottom: 5px !important;
+}
+
+.kn-table ::-webkit-scrollbar {
+  display: none;
+}
+
+.fa-edit:before, .fa-pencil-square-o:before {
+  color: #c0362c !important;
+}
+
+*/
+
+/* Floating Search
+
+#view_281 > div > a {
+  position: fixed;
+  top: -42px;
+  right: 15px;
+}
+
+#view_281 .kn-button {
+  background-color: #c0362c !important;
+    color: #ffffff !important;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 7px 15px 7px 15px;
+    border: none;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    transition: .3s ease;
+}
+
+#view_281 .kn-button:hover {
+  background-color: #82241e !important;
+}
+*/
+
+/* Custom CIV Search Table
+
+#view_264 > div > div.kn-table-wrapper {
+
+}
+
+#view_264 > div > div.kn-table-wrapper .example:-webkit-scrollbar {
+  display: none;
+}
+*/
+
+// Edit CIV Form Button
+
+.blueButtonXXX {
+  background: #58595b !important;
+  border: 0px solid #062F4F !important;
+  border-radius: 4px !important;
+  padding: 3px 15px !important;
+  color: #FFFFFF !important;
+  display: inline-block !important;
+  font-weight: 300 !important;
+  font-size: small !important;
+  text-align: center !important;
+  text-shadow: none !important;
+}
+.blueButtonXXX {
+  background: #464749 !important;
+}
+
+/* Removing Input Req Field Format Error */
+
+#view_28 > form > div.kn-message.is-error {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+#view_28 > form > ul:nth-child(1) {
+  margin-bottom: 0px;
+}
+#view_28 > form > ul:nth-child(2) {
+  height: fit-content;
+  margin-bottom: 0px;
+}
+
+
+
+/* Back to Top */
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 80px;
+    right: -55px;
+    background-color: #212529;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+#back2Top:hover {
+    background-color: #21252950;
+    color: #ffffff;
+}
+
+/* Start Services Checklist */
+
+#kn-input-field_234 > div {
+  margin-bottom: 0px !important;
+}
+
+#kn-input-field_235 > div {
+  margin-bottom: 0px !important;
+}
+
+/* Services Checklist-DebitCards */
+
+
+/* END Services Checklist-DebitCards */
+
+#kn-input-field_236 > div {
+  margin-bottom: 0px;
+}
+
+/* End Services Checklist */
+
+
+/* Start Custom Login*/
+
+.kn-login {
+  padding: 60px ;
+  background: #FFFFFF;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 30%);
+  border-radius: 10px;
+   max-width: 520px;
+  margin: 50px auto;
+}
+
+.kn-login .column.is-half {
+  width: 100% !important;
+}
+
+.kn-content .column.is-half, .kn-content .column.is-half-tablet {
+  flex: none;
+  width: 50%;
+}
+
+.kn-login .kn-title {
+  color: #212529;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.view-header .kn-title {
+  border-bottom: 1px solid #DBDBDB;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.kn-content p.kn-description {
+  font-size: 1.05em;
+  margin-bottom: 1.5em;
+}
+
+.kn-login-form .control .control {
+  padding: 5px 0;
+}
+
+.kn-login .input, #knack-reset-pass .input {
+  height: auto;
+  padding: 12px 10px;
+}
+
+.kn-content .column:only-child {
+  padding-right: 10px;
+}
+
+.kn-login .kn-button.is-primary {
+  font-family: -Helvetica Neue,Helvetica,Arial,sans-serif !important; !important;
+  font-size: 18px;
+  height: auto;
+  padding: 13px 8px;
+}
+
+.kn-login .kn-button {
+  width: 100%;
+  transition-duration: 0.4s;
+}
+
+.kn-subtitle:not(:last-child):not(:empty), .kn-title:not(:last-child):not(:empty) {
+  margin-bottom: 10px;
+}
+
+.kn-login-form {
+  max-width: 100%;
+}
+
+/* End Custom Login */
+
+.kn-content { 
+  font-family: -Helvetica Neue,Helvetica,Arial,sans-serif !important; 
+  font-size: 14.0px;
+}
+
+.kn-content h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.kn-content h3 {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.kn-content li+li {
+  margin-top: 0em;
+}
+
+.kn-content hr {
+  height: 1px;
+}
+
+.kn-instructions {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.kn-label {
+  font-weight: 500 !important;
+}
+
+.kn-radio label {
+  font-weight: normal !important;
+}
+
+.kn-checkbox label {
+  font-weight: normal !important;
+}
+
+#kn-input-field_112 > div {
+  width: 100%;
+}
+#kn-input-field_113 > div {
+  width: 100%;
+}
+
+
+
+/* Start Horizontal Radio Buttons */
+
+#kn-input-field_84
+  .kn-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 13px !important;
+  }
+  .control {
+    margin-right: 1em;
+  }
+#kn-input-field_85
+  .kn-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 13px !important;
+  }
+  .control {
+    margin-right: 1em;
+  }
+#kn-input-field_86
+  .kn-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 13px !important;
+  }
+  .control {
+    margin-right: 1em;
+  }
+#kn-input-field_87
+  .kn-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 13px !important;
+  }
+  .control {
+    margin-right: 1em;
+  }
+#kn-input-field_119
+  .kn-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .control {
+    margin-right: 1em;
+  }
+
+/* End Horizontal Radio Buttons */
+
+#kn-input-field_289 {
+  padding-left: 15px;
+  padding-top: 4px;
+  padding-bottom: 1px;
+}
+
+
+/* Progress Bar */
+
+.containerpb { 
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 70px;
+  }
+.progressbar {
+    counter-reset: step;
+    margin-top: 0px;
+  }
+  .progressbar li {
+      list-style-type: none;
+      width: 25%;
+      float: left;
+      font-size: 13px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      color: #8a8c8e;
+  }
+  .progressbar li:before {
+      width: 35px;
+      height: 35px;
+      content: counter(step);
+      counter-increment: step;
+      line-height: 32px;
+      border: 1px solid #8a8c8e;
+      display: block; 
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      transform: scale(1.1);
+      background-color: white;
+  }
+  .progressbar li:after {
+      width: 100%;
+      height: 8px;
+      content: '';
+      position: absolute;
+      background-color: #8a8c8e;
+      top: 14px;
+      left: -50%;
+      z-index: -1;
+  }
+  .progressbar li:first-child:after {
+    content: none;
+  }
+  .progressbar li.active {
+      color: #32cd32;
+  }
+  .progressbar li.active:before {
+    border-color: #32cd32;
+    background-color: #32cd32;
+    color: white;
+    font-weight: 700;
+    content: "\2713";
+  }
+  .progressbar li.curstep:before {
+    border: 1px solid #32cd32;
+    background-color: #32cd32;
+    color: #ffffff !important;
+  }
+  .progressbar li.active + li:after {
+      background-color: #32cd32;
+  }
+
+#knack-dist_7 > div.kn-scenes.kn-section {
+  padding-top: 5px;
+}
+/* Back and Proceed Step Buttons */
+
+#view_207 > div {
+  justify-content: space-between !important;
+  display: flex !important;
+  height: 42px !important;
+  width: auto !important;
+  margin-left: auto;
+  margin-right: auto !important;
+  margin-bottom: 25px !important;
+}
+#view_207 .kn-button {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #8a8c8e;
+  border: 1px solid #58595b10;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: .2s ease;
+  height: 35px;
+}
+#view_207 .kn-button:hover {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #58595b;
+  border: 1px solid #58595b;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#view_205 > div {
+  justify-content: space-between !important;
+  display: flex;
+  height: 42px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px !important;
+}
+#view_205 .kn-button {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #8a8c8e;
+  border: 1px solid #58595b10;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: .2s ease;
+  height: 35px;
+}
+#view_205 .kn-button:hover {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #58595b;
+  border: 1px solid #58595b;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#view_257 > div {
+  justify-content: space-between !important;
+  display: flex;
+  height: 42px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px !important;
+}
+#view_257 .kn-button {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #8a8c8e;
+  border: 1px solid #58595b10;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: .2s ease;
+  height: 35px;
+}
+#view_257 .kn-button:hover {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #58595b;
+  border: 1px solid #58595b;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#view_208 > section > div > div:nth-child(1) > div:nth-child(3) > div > div {
+    justify-content: flex-end;
+    display: flex;
+}
+
+/*
+#view_408 > section > div:nth-child(2) > div > div > div > div:nth-child(3) > div > span > span > a {
+  background: url('https://i.ibb.co/2jM9DyX/icons8-pdf-48.png') center no-repeat;
+  display: block;
+  justify-content: flex-end;
+  width: auto;
+  height: 50px;
+}
+*/
+
+
+// Generate PDF Button
+
+.kn-button2 {
+  align-items: center;
+  border-radius: .35em;
+  display: inline-flex;
+  height: 32px;
+  justify-content: flex-start;
+  line-height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  vertical-align: top;
+  cursor: pointer;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none!important;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  background-color: #c0362c !important;
+  border: 1px solid #d6d6d6 !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  transition: .2s ease;
+}
+
+#view_408 .kn-button2 {
+  align-items: center;
+  border-radius: .35em;
+  display: inline-flex;
+  height: 32px;
+  justify-content: flex-start;
+  line-height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  vertical-align: top;
+  cursor: pointer;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none!important;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  background-color: #c0362c !important;
+  border: 1px solid #d6d6d6 !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  transition: .2s ease;
+}
+#view_408 .kn-button2:hover {
+  align-items: center;
+  border-radius: .35em;
+  display: inline-flex;
+  height: 32px;
+  justify-content: flex-start;
+  line-height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  vertical-align: top;
+  cursor: pointer;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none!important;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  background-color: #82241e !important;
+  border: 1px solid #d6d6d6 !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+}
+
+#view_408 > section > div.kn-details-column.first.column.is-horizontal {
+  text-align: center;
+  padding: 30px;
+  flex-basis: 30% !important;
+  border-right: 1px solid #ede8e8;
+}
+#view_408 > section > div:nth-child(2) {
+  flex-basis: 70% !important;
+  padding: 30px;
+}
+#view_408 > section > div.kn-details-column.column.is-horizontal.kn-details-group-column-empty > div.kn-details-group.column-2.columns > div:nth-child(2) {
+  margin-left: 30px;
+}
+#view_408 > section > div:nth-child(2) > div > div > div > div:nth-child(1) > div > h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#view_408 > section {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#hssummary {
+  position: absolute;
+  right: 60px;
+  margin-top: -65px;
+}
+
+/* ******* Pre Form ******* */
+
+.kn-content .column.is-one-third, .kn-content .column.is-one-third-tablet {
+  min-width: min-content;
+}
+
+#kn-input-field_560 {
+  display: flex;
+  border-bottom: 1px dotted #ede8e8;
+  padding-bottom: 15px;
+}
+
+#kn-input-field_560 > div {
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+
+#connection-picker-chosen-field_413 {
+  width: 100%;
+}
+
+#view_28 > form > ul:nth-child(1) > li:nth-child(1),
+#view_204 > form > ul:nth-child(1) > li:nth-child(1) {
+  width: 40%;
+  padding: 20px 15px 10px 20px;
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  margin-right : 2%;
+}
+#view_28 > form > ul:nth-child(1) > li:nth-child(2),
+#view_204 > form > ul:nth-child(1) > li:nth-child(2) {
+  width: 30%;
+  border: 1px solid #ede8e8;
+  padding: 20px 15px 10px 20px;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  margin-right : 2%;
+}
+
+
+#view_28 > form > ul:nth-child(1) > li:nth-child(3),
+#view_204 > form > ul:nth-child(1) > li:nth-child(3) {
+  width: 22%;
+  position: relative;
+  padding: 20px 15px 10px 20px;
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+}
+
+#view_28 > form > ul:nth-child(1) h3 {
+  font-weight: 400 !important;
+  color: #8a8c8e !important;
+}
+
+
+#kn-input-field_109 > div {
+  padding-top: 15px;
+}
+
+#kn-input-field_527,
+#kn-input-field_528 {
+  margin-right: 0px;
+}
+
+/*
+#kn-input-field_413 {
+  padding: 9px 10px 1px 18px;
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  min-height: 155px;
+  margin-left: 5px;
+}
+*/
+
+
+/* Add New Client */
+
+#kn-modal-bg-0 > div > section {
+  padding: 40px 40px 0px 40px;
+}
+
+
+#kn-modal-bg-0 > div > header > h1 {
+  padding-top: 5px;
+}
+
+
+/* Custom Add Selectors */
+
+#kn-input-field_527 > div > a,
+#kn-input-field_528 > div > a,
+#kn-input-field_113 > div > a,
+#kn-input-field_112 > div > a,
+#kn-input-field_413 > div > a,
+#kn-input-field_556 > div > a,
+#kn-input-field_557 > div > a,
+#kn-input-field_558 > div > a,
+#kn-input-field_559 > div > a {
+  font-size: 15px;
+  font-weight: 300;
+  color: #8a8c8e;
+  display: flex;
+  margin: 0px;
+  height: 32px;
+  border-color: #dbdbdb;
+  border-style: solid;
+  border-radius: 0px .35em .35em 0px;
+  border-left: none;
+  width: 35px;
+  justify-content: center;
+  border-width: 1px;
+  background-color: #F8FAFB;
+  transition: .2s ease-in;
+}
+
+#kn-input-field_527 > div > a:hover,
+#kn-input-field_528 > div > a:hover,
+#kn-input-field_112 > div > a:hover,
+#kn-input-field_113 > div > a:hover,
+#kn-input-field_413 > div > a:hover,
+#kn-input-field_556 > div > a:hover,
+#kn-input-field_557 > div > a:hover,
+#kn-input-field_558 > div > a:hover,
+#kn-input-field_559 > div > a:hover {
+  color: #32cd32;
+}
+
+#connection-picker-chosen-field_527,
+#connection-picker-chosen-field_528,
+#connection-picker-chosen-field_112,
+#connection-picker-chosen-field_113,
+#connection-picker-chosen-field_413,
+#connection-picker-chosen-field_556,
+#connection-picker-chosen-field_557,
+#connection-picker-chosen-field_558,
+#connection-picker-chosen-field_559 {
+  width: 100%;
+}
+
+#view_28_field_112_chzn > a,
+#view_28_field_113_chzn > a,
+#view_204_field_112_chzn > a,
+#view_204_field_113_chzn > a,
+#view_28_field_413_chzn > a,
+#view_28_field_556_chzn > a,
+#view_28_field_557_chzn > a,
+#view_28_field_558_chzn > a,
+#view_28_field_559_chzn > a {
+  border-radius: .35em 0 0 .35em !important; 
+}
+
+#view_28_field_413_chzn > div {
+  top: 0;
+}
+
+#kn-input-field_527 > div,
+#kn-input-field_528 > div,
+#kn-input-field_113 > div,
+#kn-input-field_112 > div {
+  display: flex;
+  align-items: flex-start;
+}
+
+#kn-input-field_413 > div,
+#kn-input-field_556 > div,
+#kn-input-field_557 > div,
+#kn-input-field_558 > div,
+#kn-input-field_559 > div {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+#kn-input-field_253,
+#kn-input-field_252 {
+  content-visibility: hidden;
+}
+
+
+
+/* ********* Form Containers Step 1 and Step 3 ************* */
+
+
+/* Account Information Modules */
+
+#view_28 > form > ul:nth-child(3) > li,
+#view_204 > form > ul:nth-child(3) > li {
+  max-width: none;
+}
+
+#view_28 > form > ul:nth-child(4),
+#view_204 > form > ul:nth-child(4) {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+
+#view_28 > form > ul:nth-child(4) > li,
+#view_204 > form > ul:nth-child(4) > li {
+  max-width: inherit;
+}
+
+
+#showhidebtn1, #showhidebtn2 {
+  position: absolute;
+  right: 75px;
+  margin-top: 20px;
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  color: #dbdbdb;
+  transition: ease-in-out .4s;
+}
+
+#showhidebtn1:hover, #showhidebtn2:hover {
+  color: #363636;
+  transform: rotate(360deg);
+}
+
+/* Deposits */
+#view_28 > form > ul:nth-child(5),
+#view_204 > form > ul:nth-child(5) {
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  border-radius: 5px;
+  padding: 15px 5px 15px 20px;
+  float: left;
+  min-height: 330px;
+  min-width: 47.5%;
+  margin-top: 10px;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
+}
+/* Loans */
+#view_28 > form > ul:nth-child(6),
+#view_204 > form > ul:nth-child(6) {
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  border-radius: 5px;
+  padding: 15px 5px 15px 20px;
+  float: left;
+  min-height: 330px;
+  min-width: 47.5%;
+  margin-top: 10px;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
+}
+/* Wealth */
+#view_28 > form > ul:nth-child(7),
+#view_204 > form > ul:nth-child(7) {
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  border-radius: 5px;
+  padding: 15px 5px 15px 20px;
+  float: left;
+  min-height: 330px;
+  min-width: 47.5%;
+  margin-top: 10px;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
+}
+/* Credit Cards */
+#view_28 > form > ul:nth-child(8),
+#view_204 > form > ul:nth-child(8) {
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  border-radius: 5px;
+  padding: 15px 5px 15px 20px;
+  float: left;
+  min-height: 330px;
+  min-width: 47.5%;
+  margin-top: 10px;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
+}
+
+#view_28 > form > ul:nth-child(9),
+#view_204 > form > ul:nth-child(9) {
+  margin-top: 15px;
+  clear: left;
+}
+
+#view_28 > form > ul:nth-child(9) > li,
+#view_204 > form > ul:nth-child(9) > li {
+  max-width: none;
+}
+
+/* ******** SERVICES CHECKLIST ******** */
+
+
+/* Monthly Service Charge */
+
+#view_28 > form > ul:nth-child(10),
+#view_204 > form > ul:nth-child(10) {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  padding: 0px 10px 2px 10px;
+  margin-bottom: 20px;
+}
+
+    /* IC */
+    #view_28 > form > ul:nth-child(11),
+    #view_204 > form > ul:nth-child(11) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(11) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(11) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(11) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(11) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(11) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(11) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    
+    #view_28 > form > ul:nth-child(11):before,
+    #view_204 > form > ul:nth-child(11):before {
+      content: "Investor Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    
+    
+    /* IBC */
+    #view_28 > form > ul:nth-child(12),
+    #view_204 > form > ul:nth-child(12) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(12) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(12) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(12) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(12) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(12) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(12) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(12):before,
+    #view_204 > form > ul:nth-child(12):before {
+      content: "Interest Bearing Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    
+    /* PMM */
+    #view_28 > form > ul:nth-child(13),
+    #view_204 > form > ul:nth-child(13) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(13) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(13) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(13) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(13) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(13) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(13) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(13):before,
+    #view_204 > form > ul:nth-child(13):before {
+      content: "Personal Money Market";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+    /* PS */
+    #view_28 > form > ul:nth-child(14),
+    #view_204 > form > ul:nth-child(14) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(14) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(14) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(14) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(14) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(14) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(14) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(14):before,
+    #view_204 > form > ul:nth-child(14):before {
+      content: "Personal Savings";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+    /* CD */
+    #view_28 > form > ul:nth-child(15),
+    #view_204 > form > ul:nth-child(15) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(15) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(15) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(15) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(15) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(15) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(15) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(15):before,
+    #view_204 > form > ul:nth-child(15):before {
+      content: "Certificate of Deposit";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+/* Stmt Delivery */
+#view_28 > form > ul:nth-child(16),
+#view_204 > form > ul:nth-child(16) {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  padding: 0px 10px 2px 10px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  clear: left;
+}
+    /* IC */
+    #view_28 > form > ul:nth-child(17),
+    #view_204 > form > ul:nth-child(17) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 10px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(17) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(17) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(17) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(17) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(17) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(17) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(17):before,
+    #view_204 > form > ul:nth-child(17):before {
+      content: "Investor Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+    /* IBC */
+    #view_28 > form > ul:nth-child(18),
+    #view_204 > form > ul:nth-child(18) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 10px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(18) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(18) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(18) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(18) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(18) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(18) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(18):before,
+    #view_204 > form > ul:nth-child(18):before {
+      content: "Interest Bearing Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    /* PMM */
+    #view_28 > form > ul:nth-child(19),
+    #view_204 > form > ul:nth-child(19) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 10px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(19) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(19) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(19) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(19) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(19) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(19) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(19):before,
+    #view_204 > form > ul:nth-child(19):before {
+      content: "Personal Money Market";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    /* PS */
+    #view_28 > form > ul:nth-child(20),
+    #view_204 > form > ul:nth-child(20) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 10px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(20) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(20) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(20) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(20) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(20) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(20) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(20):before,
+    #view_204 > form > ul:nth-child(20):before {
+      content: "Personal Savings";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    /* IRA (Deposits) */
+    #view_28 > form > ul:nth-child(21),
+    #view_204 > form > ul:nth-child(21) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 10px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(21) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(21) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(21) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(21) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(21) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(21) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(21):before,
+    #view_204 > form > ul:nth-child(21):before {
+      content: "IRA (Deposits)";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    /* CD */
+    #view_28 > form > ul:nth-child(22),
+    #view_204 > form > ul:nth-child(22) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 10px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(22) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(22) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(22) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(22) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(22) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(22) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(22):before,
+    #view_204 > form > ul:nth-child(22):before {
+      content: "Certificate of Deposit";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+/* Check Order */
+#view_28 > form > ul:nth-child(23),
+#view_204 > form > ul:nth-child(23) {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  padding: 0px 10px 2px 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+    /* IC */
+    #view_28 > form > ul:nth-child(24),
+    #view_204 > form > ul:nth-child(24) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(24) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(24) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(24) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(24) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(24) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(24) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(24):before,
+    #view_204 > form > ul:nth-child(24):before {
+      content: "Investor Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    /* IBC */
+    #view_28 > form > ul:nth-child(25),
+    #view_204 > form > ul:nth-child(25) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(25) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(25) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(25) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(25) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(25) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(25) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(25):before,
+    #view_204 > form > ul:nth-child(25):before {
+      content: "Interest Bearing Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+    /* PMM */
+    #view_28 > form > ul:nth-child(26),
+    #view_204 > form > ul:nth-child(26) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(26) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(26) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(26) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(26) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(26) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(26) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(26):before,
+    #view_204 > form > ul:nth-child(26):before {
+      content: "Personal Money Market";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+/* Debit Cards */
+
+#view_28 > form > ul:nth-child(27),
+#view_204 > form > ul:nth-child(27) {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 5px;
+  padding: 0px 10px 2px 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#view_28 > form > ul:nth-child(27) > li {
+  padding-bottom: inherit;
+}
+
+    /* IC */
+    #view_28 > form > ul:nth-child(28),
+    #view_204 > form > ul:nth-child(28) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(28) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(28) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(28) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(28) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(28) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(28) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(28):before,
+    #view_204 > form > ul:nth-child(28):before {
+      content: "Investor Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+    /* IBC */
+    #view_28 > form > ul:nth-child(29),
+    #view_204 > form > ul:nth-child(29) {
+      box-shadow: rgb(0 0 0 / 5%) 0px 6px 15px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+      border-radius: 5px;
+      padding: 10px 15px 5px 15px;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    #view_28 > form > ul:nth-child(29) > li:nth-child(1),
+    #view_204 > form > ul:nth-child(29) > li:nth-child(1) {
+      padding: 10px 10px 10px 20px;
+    }
+    #view_28 > form > ul:nth-child(29) > li:nth-child(2),
+    #view_28 > form > ul:nth-child(29) > li:nth-child(3),
+    #view_204 > form > ul:nth-child(29) > li:nth-child(2),
+    #view_204 > form > ul:nth-child(29) > li:nth-child(3) {
+      border-left: 1px dotted #ede8e8;
+      padding: 10px 10px 10px 25px;
+    }
+    #view_28 > form > ul:nth-child(29):before,
+    #view_204 > form > ul:nth-child(29):before {
+      content: "Interest Bearing Checking";
+      position: absolute;
+      text-align: center;
+      left: 70px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: -21px;
+      font-size: 10px;
+      width: 145px;
+      color: #8a8c8e;
+      border: 1px solid #ede8e8;
+      background-color: #F8FAFB;
+      border-radius: 3px;
+    }
+
+
+/* OTHER */
+
+#view_28 > form > ul:nth-child(30),
+#view_204 > form > ul:nth-child(30) {
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 26px;
+}
+
+#view_204 > form > ul:nth-child(1) {
+  margin-top: 25px;
+}
+
+/* Signature */
+
+#view_28 > form > ul:nth-child(31),
+#view_204 > form > ul:nth-child(31) {
+  margin-top: 15px;
+}
+#view_28 > form > ul:nth-child(31) > li,
+#view_204 > form > ul:nth-child(31) > li {
+  max-width: none;
+}
+
+#view_28 > form > ul:nth-child(32),
+#view_204 > form > ul:nth-child(32) {
+  background-color: #F8FAFB;
+  border: 1px solid #ede8e8;
+  border-radius: 5px;
+  padding: 0px 5px 0px 20px;
+  margin-bottom: 30px;
+}
+
+#view_28 > form > ul:nth-child(32) > li:nth-child(2),
+#view_204 > form > ul:nth-child(32) > li:nth-child(2) {
+  align-self: flex-end;
+  margin-bottom: 1.25%;
+}
+
+/* Aggregate Step 1 and 3 */
+
+
+/* IC Count*/
+
+#kn-input-field_540 {
+  position: absolute;
+  display: flex;
+  left: 40.1%;
+  margin-top: -37px;
+}
+
+#view_28-field_540 {
+  height: auto;
+}
+
+#kn-input-field_541 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#kn-input-field_542,
+#kn-input-field_543 {
+  margin-left: 20px;
+}
+
+/* IBC Count*/
+
+#kn-input-field_544 {
+  position: absolute;
+  display: flex;
+  left: 40.1%;
+  margin-top: -37px;
+}
+
+#view_28-field_544 {
+  height: auto;
+}
+
+#kn-input-field_545 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#kn-input-field_546,
+#kn-input-field_547 {
+  margin-left: 20px;
+}
+
+/* PMM Count */
+
+#kn-input-field_548 {
+  position: absolute;
+  display: flex;
+  left: 40.1%;
+  margin-top: -37px;
+  height: auto;
+}
+
+#view_28-field_548 {
+  height: auto;
+}
+
+#kn-input-field_549 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#kn-input-field_550,
+#kn-input-field_551 {
+  margin-left: 20px;
+}
+
+/* PS Count */
+
+#kn-input-field_552 {
+  position: absolute;
+  display: flex;
+  left: 40.1%;
+  margin-top: -37px;
+  height: auto;
+}
+
+#view_28-field_552 {
+  height: auto;
+}
+
+#kn-input-field_553 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#kn-input-field_554,
+#kn-input-field_555 {
+  margin-left: 20px;
+}
+
+/* IRA Count */
+
+#kn-input-field_570 {
+  position: absolute;
+  display: flex;
+  left: 40.1%;
+  margin-top: -37px;
+  height: auto;
+}
+
+#view_28-field_570 {
+  height: auto;
+}
+
+#kn-input-field_564 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#kn-input-field_565,
+#kn-input-field_566 {
+  margin-left: 20px;
+}
+
+/* Safe Deposit Box Count */
+
+#kn-input-field_571 {
+  position: absolute;
+  display: flex;
+  left: 40.1%;
+  margin-top: -37px;
+  height: auto;
+}
+
+#view_28-field_571 {
+  height: auto;
+}
+
+#kn-input-field_567 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#kn-input-field_568,
+#kn-input-field_569 {
+  margin-left: 20px;
+}
+
+#kn-input-field_232,
+#kn-input-field_573,
+#kn-input-field_574 {
+  margin-left: 40px;
+  margin-right: 28px;
+}
+
+/* CD Count */
+
+#kn-input-field_572 {
+  position: absolute;
+  display: flex;
+  left: 40.1%;
+  margin-top: -37px;
+  height: auto;
+}
+
+#view_28-field_572 {
+  height: auto;
+}
+
+#kn-input-field_561 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#kn-input-field_562,
+#kn-input-field_563 {
+  margin-left: 20px;
+}
+
+#kn-input-field_222,
+#kn-input-field_223,
+#kn-input-field_224,
+#kn-input-field_225,
+#kn-input-field_226,
+#kn-input-field_575,
+#kn-input-field_576,
+#kn-input-field_577,
+#kn-input-field_578,
+#kn-input-field_579,
+#kn-input-field_580,
+#kn-input-field_581,
+#kn-input-field_582,
+#kn-input-field_583,
+#kn-input-field_584 {
+  margin-left: 50px;
+}
+
+#kn-input-field_224,
+#kn-input-field_225,
+#kn-input-field_577,
+#kn-input-field_578,
+#kn-input-field_582,
+#kn-input-field_583 {
+  margin-right: 28px;
+}
+
+#kn-input-field_217 > label,
+#kn-input-field_227 > label,
+#kn-input-field_231 > label,
+#kn-input-field_233 > label {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+/* Services Checklist Acct Labels
+#kn-input-field_274 > label,
+#kn-input-field_310 > label,
+#kn-input-field_315 > label,
+#kn-input-field_316 > label,
+#kn-input-field_319 > label {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+*/
+
+#kn-input-field_276,
+#kn-input-field_311,
+#kn-input-field_314,
+#kn-input-field_317,
+#kn-input-field_320,
+#kn-input-field_277,
+#kn-input-field_312,
+#kn-input-field_313,
+#kn-input-field_318,
+#kn-input-field_321 {
+  margin-bottom: 8px !important;
+}
+
+/* Services Checklist SD Labels
+#kn-input-field_278 > label,
+#kn-input-field_279 > label,
+#kn-input-field_280 > label,
+#kn-input-field_281 > label,
+#kn-input-field_282 > label {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+*/
+
+#kn-input-field_260 {
+  display: flex;
+}
+
+#kn-input-field_260 > div {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 18px 75px 10px 75px;
+  align-items: center;
+  font-size: 15px;
+}
+
+#kn-input-field_260 > label {
+  padding: 15px 15px 10px 15px;
+  font-size: 1.3em;
+  width: 25%;
+  color: #8a8c8e;
+  text-align: center;
+}
+
+#kn-input-field_18 {
+  margin-right: 0px;
+}
+
+#kn-input-field_464 {
+  position: absolute;
+  right: 63px;
+  margin: -35px 0px 0px 0px;
+  color: #8a8c8e60;
+  transition: .2s ease;
+}
+
+#kn-input-field_464:hover {
+  color: #8a8c8e;
+}
+
+#kn-input-field_464 > div > label > input[type=checkbox] {
+  display: none;
+}
+
+#kn-input-field_243 {
+  width: 300px;
+}
+
+#kn-input-field_21 > div,
+#kn-input-field_20 > div,
+#kn-input-field_43 > div,
+#kn-input-field_26 > div {
+  width: 100%;
+}
+
+/* Services Checklist Custom Checkboxes */
+
+#kn-input-field_234 > div > label > input[type=checkbox] {
+  margin-right: 15px !important;
+  margin-top: -2px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+#kn-input-field_234 label {
+  font-weight: 400 !important;
+  font-size: 15px;
+  color: dimgray;
+}
+
+#kn-input-field_235 > div > label > input[type=checkbox] {
+  margin-right: 15px !important;
+  margin-top: -2px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+#kn-input-field_235 label {
+  font-weight: 400 !important;
+  font-size: 15px;
+  color: dimgray;
+}
+
+#kn-input-field_236 > div > label > input[type=checkbox] {
+  margin-right: 15px !important;
+  margin-top: -2px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+#kn-input-field_236 label {
+  font-weight: 400 !important;
+  font-size: 15px;
+  color: dimgray;
+}
+
+#kn-input-field_239 > div > label > input[type=checkbox] {
+  margin-right: 15px !important;
+  margin-top: -2px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+#kn-input-field_239 label {
+  font-weight: 400 !important;
+  font-size: 15px;
+  color: dimgray;
+}
+
+/* Step 2 Relationship And Modal Size */
+
+#view_481 {
+  border-top: 1px solid #ede8e8;
+  padding-top: 20px;
+}
+
+#view_478 {
+  display: none !important;
+}
+
+#kn-scene_82 > div.view-group.view-group-1 {
+  margin-bottom: -50px;
+}
+
+#view_481 > form > div {
+  margin-top: -25px;
+}
+
+#view_481 #kn-input-field_461 {
+  display: none;
+}
+
+#view_353 > form > div {
+  margin-top: -25px;
+}
+
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th.field_500 > span > a,
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th.field_396 > span > a,
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th.field_389 > span > a {
+    justify-content: center;
+}
+
+#view_352 .fa.fa-check-circle {
+    font-size: .8em !important;
+    vertical-align: middle !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
+
+#kn-modal-bg-0 > div {
+  width: fit-content;
+}
+
+#view_378 > section > div > div.kn-details-group.column-2.columns {
+  width: auto;
+}
+
+#view_379 > form > ul > li:nth-child(1) {
+  width: 40%;
+}
+#view_379 > form > ul > li:nth-child(2) {
+  width: 30%;
+}
+#view_379 > form > ul > li:nth-child(3) {
+  width: 30%;
+}
+
+#connection-form-view > form > ul > li:nth-child(1) {
+  width: 35%;
+}
+#connection-form-view > form > ul > li:nth-child(2) {
+  width: 35%;
+}
+#connection-form-view > form > ul > li:nth-child(3) {
+  width: 30%;
+}
+
+#kn-modal-bg-1 > div {
+  width: fit-content;
+}
+
+#kn-input-field_418 {
+  width: 333px;
+}
+#kn-input-field_257 {
+  width: 320px;
+}
+
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th.field_411 > span > a {
+  justify-content: center;
+}
+
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th:nth-child(1),
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th:nth-child(5),
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th:nth-child(6),
+#view_352 > div.kn-table-wrapper.is-constrained > table > thead > tr > th:nth-child(7) {
+  text-align: center !important;
+}
+
+#view_357 > div > a {
+  position: absolute;
+  top: -60px;
+  left: 250px;
+}
+
+
+#view_276 {
+  margin-bottom: 0px;
+}
+
+#view_352 > div.kn-table-wrapper.is-constrained {
+  max-height: none;
+}
+
+#view_352 > .kn-table-wrapper {
+  overflow: inherit;
+}
+
+/* Step 4 Export */
+
+
+#view_208 > section > div > div:nth-child(3) > div:nth-child(1) {
+  min-width: fit-content;
+}
+#view_208 > section > div > div:nth-child(3) > div:nth-child(2) {
+  min-width: fit-content;
+}
+#view_208 > section > div > div:nth-child(3) > div:nth-child(3) {
+  min-width: fit-content;
+}
+
+div.kn-detail.field_21 > div.kn-detail-label,
+div.kn-detail.field_20 > div.kn-detail-label,
+div.kn-detail.field_22 > div.kn-detail-label,
+div.kn-detail.field_23 > div.kn-detail-label,
+div.kn-detail.field_24 > div.kn-detail-label,
+div.kn-detail.field_25 > div.kn-detail-label,
+div.kn-detail.field_26 > div.kn-detail-label,
+div.kn-detail.field_42 > div.kn-detail-label,
+div.kn-detail.field_43 > div.kn-detail-label,
+div.kn-detail.field_44 > div.kn-detail-label,
+div.kn-detail.field_45 > div.kn-detail-label,
+div.kn-detail.field_108 > div.kn-detail-label,
+div.kn-detail.field_358 > div.kn-detail-label {
+    min-width: 180px !important;
+    max-width: none !important;
+}
+
+.kn-details .kn-detail-label, .kn-list .kn-detail-label {
+  background-color: #f2f2f2;
+  font-weight: 500;
+  border: 1px solid #ede8e8;
+  background-color: #F8FAFB;
+  border-radius: 3px;
+}
+
+#view_391 > section > div > div.kn-details-group.column-3.columns > div:nth-child(1) {
+  min-width: fit-content;
+}
+
+/* Tooltips v2 */
+
+.tooltip {
+  position:relative; /* making the .tooltip span a container for the tooltip text */
+  z-index: 9;
+}
+
+.tooltip:before {
+content: "\01F4A1" attr(data-text);
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    top: 0%;
+    transform: translateY(-120%);
+    margin-left: 2px;
+    width: auto;
+    left: 5%;
+    right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s opacity ease-in-out;
+}
+
+.tooltip:after {
+  content: "";
+  position:absolute;
+  z-index: 11;
+  
+  /* position tooltip correctly */
+  left:50%;
+  margin-left:-3px;
+ 
+  /* vertically center */
+  top:0%;
+  transform:translateY(-100%);
+ 
+  /* the arrow */
+  border:6px solid #000;
+  border-color: black transparent transparent transparent;
+  
+  /* display:none; */
+
+  /* transition */
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s opacity ease-in-out;
+}
+
+.tooltip:hover:before, .tooltip:hover:after {
+  display:block;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* Checkbox Toggle */
+
+.toggletxt {
+    color: #f8fafb !important;
+    font-size: 22px;
+    font-weight: 400 !important;
+    opacity: .8;
+    margin-left: -95px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+.ttchkbox {
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 34px;
+    top: 14px;
+    right: 325px;
+    transform: scale(.5);
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
